@@ -1,9 +1,12 @@
 import java.awt.*;
 import java.util.concurrent.atomic.AtomicBoolean;
 
+import org.jfugue.player.Player;
+import org.jfugue.rhythm.Rhythm;
+
 public class Metronome extends Thread {
     private AtomicBoolean keepRunning;
-    static double bpm = 100;
+    static double bpm = 60;
 
     public Metronome() {
         keepRunning = new AtomicBoolean(true);
@@ -22,7 +25,10 @@ public class Metronome extends Thread {
             catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            Toolkit.getDefaultToolkit().beep();
+            Player player = new Player();
+            Rhythm rhythm = new Rhythm();
+            rhythm.addLayer("S");
+            player.play(rhythm.getPattern());
         }
     }
 }

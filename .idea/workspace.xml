@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0831ec8a-5e3e-45fc-bcf4-c75e123651b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Metronom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Metronome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainWindow.java" afterDir="false" />
+    <list default="true" id="0831ec8a-5e3e-45fc-bcf4-c75e123651b7" name="Changes" comment="creating metronome project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Metronom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Metronom.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Metronome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Metronome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Window.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +37,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/filip/Downloads/jfugue-5.0.9.jar",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
@@ -71,7 +66,17 @@
       <option name="presentableId" value="Default" />
       <updated>1653913738086</updated>
       <workItem from="1653913740032" duration="6853000" />
+      <workItem from="1653937036936" duration="1017000" />
+      <workItem from="1655047364193" duration="2940000" />
     </task>
+    <task id="LOCAL-00001" summary="creating metronome project">
+      <created>1653937169421</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653937169421</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="creating metronome project" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating metronome project" />
   </component>
 </project>
